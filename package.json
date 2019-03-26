@@ -1,5 +1,5 @@
 {
-  "name": "stream-parser",
+  "name": "delimited-pipeline",
   "version": "1.0.0",
   "description": "Reads a file from the file system, parse it, and output results",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "pump": "^3.0.0",
+    "pumpify": "^1.5.1",
     "readable-stream": "^3.1.1",
     "split2": "^3.1.0",
     "through2": "^3.0.0"
